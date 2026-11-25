@@ -739,7 +739,7 @@
         // 기존 방향 및 위치 유지
         const orientationGroup = new THREE.Group();
 
-        orientationGroup.rotation.x = 0;
+        orientationGroup.rotation.x = -Math.PI / 2;
         orientationGroup.position.z = MODEL_HEIGHT_OFFSET;
 
         orientationGroup.add(modelRoot);
