@@ -407,7 +407,7 @@
     // 이미지 기본 위치 계산
     function updateImageHome() {
 
-      let homeY = 0;
+      let homeY = 0.8;
 
       if (backgroundMesh && imageMesh) {
 
@@ -740,7 +740,7 @@
         const orientationGroup = new THREE.Group();
 
         orientationGroup.rotation.x = 0;
-        orientationGroup.position.z = MODEL_HEIGHT_OFFSET;
+       orientationGroup.position.y = -0.4;
 
         orientationGroup.add(modelRoot);
 
